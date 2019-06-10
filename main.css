@@ -99,7 +99,7 @@ header h1{
 
 section {
   min-height: 200px;
-  padding: 6% 3%;
+  padding: 6% 20px;
   background-color: #bbb;
   display: inline-block;
 }
@@ -184,7 +184,9 @@ section img{
 
 q{
   font-style: italic;
-  margin: 20px 5px;
+  width: 80%;
+  display: block;
+  margin: 20px auto;
   border: 1px solid darkgray;
   padding: 15px;
   box-shadow: 3px 3px 10px 4px;
@@ -197,6 +199,9 @@ q{
 sub{
   font-size: 12px;
   font-weight: lighter;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 /* hide all links, except for the first
   Show the close/open link
