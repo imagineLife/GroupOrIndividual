@@ -109,29 +109,24 @@ section p{
 }
 
 /*individual && group images*/
-/*.individual-group-img{
+.individual-group-img{
+  max-height: 200px;
   max-width: 200px;
-}*/
+}
 
 /*Group && Individual section alignments*/
 section *{
   display: inline-block;
   text-align: left;
   position: relative;
-  float: left;
 }
 
-section div{
-  width: 50%;
-  float: left;
-}
 section h2{
   width: 100%;
   text-align: center;
 }
 
 section img{
-  float: right;
   width: 100%;
   margin: 20px 0;
 }
