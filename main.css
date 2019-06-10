@@ -57,6 +57,10 @@ table {
   line-height: 1.3;
 }
 
+b{
+  font-weight: bold;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -167,6 +171,15 @@ section img{
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+#award-categories-list{
+  list-style-type: square;
+  margin: 15px 30px 0 30px;
+}
+
+#award-categories-list li{
+  display: list-item;
 }
 
 /* hide all links, except for the first
