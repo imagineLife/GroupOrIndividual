@@ -184,12 +184,20 @@ section img{
 
 q{
   font-style: italic;
-  margin: 5px;
+  margin: 20px 5px;
   border: 1px solid darkgray;
   padding: 15px;
   box-shadow: 3px 3px 10px 4px;
 }
 
+.tl-dr{
+  margin: 10px 0;
+}
+
+sub{
+  font-size: 12px;
+  font-weight: lighter;
+}
 /* hide all links, except for the first
   Show the close/open link
 */
