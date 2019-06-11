@@ -121,13 +121,15 @@ section p{
 /*Group && Individual section alignments*/
 section *{
   display: inline-block;
-  text-align: left;
   position: relative;
 }
 
 section h2{
   width: 100%;
   text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 section img{
@@ -173,13 +175,20 @@ section img{
   display: none;
 }
 
-#award-categories-list{
-  list-style-type: square;
-  margin: 15px 30px 0 30px;
+#award-categories-list li{
+  list-style-type: none;
+  margin: 15px 20px 0 20px;
+  border: 1px solid darkgray;
+  box-shadow: 3px 3px 10px 4px;
+  padding: 5px;
 }
 
 #award-categories-list li{
   display: list-item;
+}
+
+.category-title{
+  width: 100%;
 }
 
 q{
